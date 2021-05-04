@@ -7,8 +7,8 @@ $this->breadcrumbs=array(
 );
 
 $this->menu=array(
-	array('label'=>'Create Obat', 'url'=>array('create')),
-	array('label'=>'Manage Obat', 'url'=>array('admin')),
+
+	array('label'=>'Aksi Admin', 'url'=>array('admin')),
 );
 ?>
 

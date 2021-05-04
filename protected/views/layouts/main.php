@@ -39,16 +39,16 @@
 			        <a class="nav-link" href="index.php?r=site/index">Home <span class="sr-only">(current)</span></a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="index.php?r=pegawai/admin">Pegawai</a>
+			        <a class="nav-link" href="index.php?r=pegawai/index">Pegawai</a>
 			      </li>
 				  <li class="nav-item">
-			        <a class="nav-link" href="index.php?r=obat/admin">Obat</a>
+			        <a class="nav-link" href="index.php?r=obat/index">Obat</a>
 			      </li>
 			      <li class="nav-item">
-			        <a class="nav-link" href="index.php?r=tindakan/admin">Tindakan</a>
+			        <a class="nav-link" href="index.php?r=tindakan/index">Tindakan</a>
 			      </li>
 				  <li class="nav-item">
-			        <a class="nav-link" href="index.php?r=user/admin">User</a>
+			        <a class="nav-link" href="index.php?r=user/index">User</a>
 			      </li>
 				  <li class="nav-item">
 				  <?php $this->widget('zii.widgets.CMenu',array(
@@ -64,7 +64,9 @@
 		</nav>
 	</header>
 	
+	<div>
 	<?php echo $content; ?>
+	</div>
 
 
 	<div id="footer">

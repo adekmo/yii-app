@@ -28,15 +28,15 @@ class PegawaiController extends Controller
 	{
 		return array(
 			array('allow',  // allow all users to perform 'index' and 'view' actions
-				'actions'=>array('index','view'),
+				'actions'=>array('index'),
 				'users'=>array('*'),
 			),
 			array('allow', // allow authenticated user to perform 'create' and 'update' actions
-				'actions'=>array('create','update'),
+				'actions'=>array('index'),
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('admin','delete','create','update', 'index', 'view'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -70,8 +70,11 @@ class PegawaiController extends Controller
 		if(isset($_POST['Pegawai']))
 		{
 			$model->attributes=$_POST['Pegawai'];
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_pegawai));
+			$model->save();
+			$model->id_pegawai = null;
+			$model->nama_pegawai = null;
+			$model->jabatan = null;
+			$model->alamat = null;
 		}
 
 		$this->render('create',array(

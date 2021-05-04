@@ -16,3 +16,18 @@ $this->menu=array(
 <h1>Create Pegawai</h1>
 
 <?php $this->renderPartial('_form', array('model'=>$model)); ?>
+
+<?php $this->widget('zii.widgets.grid.CGridView', array(
+	'id'=>'pegawai-grid',
+	'dataProvider'=>$model->search(),
+	'filter'=>$model,
+	'columns'=>array(
+		'id_pegawai',
+		'nama_pegawai',
+		'jabatan',
+		'alamat',
+		array(
+			'class'=>'CButtonColumn',
+		),
+	),
+)); ?>

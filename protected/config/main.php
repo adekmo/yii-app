@@ -16,6 +16,10 @@ return array(
 	'import'=>array(
 		'application.models.*',
 		'application.components.*',
+		'application.modules.obatMaster.models.*',
+		'application.modules.userMaster.models.*',
+		'application.modules.tindakanMaster.models.*',
+		'application.modules.pegawaiMaster.models.*',
 	),
 
 	'modules'=>array(
@@ -27,7 +31,10 @@ return array(
 			// If removed, Gii defaults to localhost only. Edit carefully to taste.
 			'ipFilters'=>array('127.0.0.1','::1'),
 		),
-		
+		'obatMaster',
+		'userMaster',
+		'tindakanMaster',
+		'pegawaiMaster',
 	),
 
 	// application components

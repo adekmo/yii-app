@@ -73,8 +73,15 @@ class UserController extends Controller
 
 			$password = $_POST['User']['password'];
 			$model->password = md5($password);
-			if($model->save())
-				$this->redirect(array('view','id'=>$model->id_user));
+			$model->save();
+			$model->user_name = null;
+			$model->password = null;
+			$model->id_user = null;
+			$model->level = null;
+			$model->nama = null;
+			$model->email = null;
+			
+				// $this->redirect(array('create','model'=>$model));
 		}
 
 		$this->render('create',array(
