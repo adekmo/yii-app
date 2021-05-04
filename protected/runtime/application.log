@@ -1,0 +1,122 @@
+2021/05/04 09:55:31 [error] [php] Use of undefined constant ‘jquery’ - assumed '‘jquery’' (this will throw an Error in a future version of PHP) (C:\xampp\htdocs\yii-app\protected\views\site\index.php:16)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-app\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-app/index.php?r=site
+in C:\xampp\htdocs\yii-app\protected\views\site\index.php (16)
+in C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii-app\index.php (13)
+2021/05/04 09:56:04 [error] [php] Use of undefined constant ‘zii - assumed '‘zii' (this will throw an Error in a future version of PHP) (C:\xampp\htdocs\yii-app\protected\views\site\index.php:54)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-app\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-app/index.php?r=site
+in C:\xampp\htdocs\yii-app\protected\views\site\index.php (54)
+in C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii-app\index.php (13)
+2021/05/04 09:57:35 [error] [php] Use of undefined constant ‘zii - assumed '‘zii' (this will throw an Error in a future version of PHP) (C:\xampp\htdocs\yii-app\protected\views\site\index.php:54)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-app\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-app/index.php?r=site
+in C:\xampp\htdocs\yii-app\protected\views\site\index.php (54)
+in C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii-app\index.php (13)
+2021/05/04 09:58:00 [error] [php] Use of undefined constant ‘zii - assumed '‘zii' (this will throw an Error in a future version of PHP) (C:\xampp\htdocs\yii-app\protected\views\site\index.php:54)
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CController.php(872): SiteController->renderFile()
+#1 C:\xampp\htdocs\yii\framework\web\CController.php(785): SiteController->renderPartial()
+#2 C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php(32): SiteController->render()
+#3 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#4 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams()
+#5 C:\xampp\htdocs\yii\framework\web\CController.php(286): SiteController->runAction()
+#6 C:\xampp\htdocs\yii\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#7 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): SiteController->run()
+#8 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#9 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#10 C:\xampp\htdocs\yii-app\index.php(13): CWebApplication->run()
+REQUEST_URI=/yii-app/index.php?r=site
+in C:\xampp\htdocs\yii-app\protected\views\site\index.php (54)
+in C:\xampp\htdocs\yii-app\protected\controllers\SiteController.php (32)
+in C:\xampp\htdocs\yii-app\index.php (13)
+2021/05/04 10:03:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pegawai/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-app/index.php?r=pegawai/index
+HTTP_REFERER=http://localhost/yii-app/index.php?r=site/index
+---
+2021/05/04 10:12:07 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "user/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('user/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-app/index.php?r=user/index
+HTTP_REFERER=http://localhost/yii-app/index.php?r=site/login
+---
+2021/05/04 10:15:02 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pegawai/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-app/index.php?r=pegawai/index
+HTTP_REFERER=http://localhost/yii-app/index.php?r=site/index
+---
+2021/05/04 10:22:06 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pegawai/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-app/index.php?r=pegawai/index
+HTTP_REFERER=http://localhost/yii-app/index.php?r=site/index
+---
+2021/05/04 10:25:11 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pegawai/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-app/index.php?r=pegawai/index
+HTTP_REFERER=http://localhost/yii-app/index.php?r=site/index
+---
+2021/05/04 10:25:24 [error] [exception.CHttpException.404] CHttpException: Unable to resolve the request "pegawai/index". in C:\xampp\htdocs\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('pegawai/index')
+#1 C:\xampp\htdocs\yii\framework\base\CApplication.php(185): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\yii-app\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/yii-app/index.php?r=pegawai/index
+HTTP_REFERER=http://localhost/yii-app/index.php?r=user/index
+---

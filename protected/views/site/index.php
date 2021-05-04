@@ -4,17 +4,17 @@
 $this->pageTitle=Yii::app()->name;
 ?>
 
-<h1>Welcome to <i><?php echo CHtml::encode(Yii::app()->name); ?></i></h1>
-
-<p>Congratulations! You have successfully created your Yii application.</p>
-
-<p>You may change the content of this page by modifying the following two files:</p>
-<ul>
-	<li>View file: <code><?php echo __FILE__; ?></code></li>
-	<li>Layout file: <code><?php echo $this->getLayoutFile('main'); ?></code></li>
-</ul>
-
-<p>For more details on how to further develop this application, please read
-the <a href="http://www.yiiframework.com/doc/">documentation</a>.
-Feel free to ask in the <a href="http://www.yiiframework.com/forum/">forum</a>,
-should you have any questions.</p>
+<!-- Jumbotron -->
+<div class="jumbotron jumbotron-fluid height100p banner" id="home">
+	  <div class="container h100">
+	    <div class="contentBox h100">
+	    	<div>
+	    		<h1>SELAMAT DATANG DI RS SEHAT</h1>
+	    		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	    		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	    		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	    		consequat.</p>
+	    	</div>
+	    </div>
+	  </div>
+	</div>
